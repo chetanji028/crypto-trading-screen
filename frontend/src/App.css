@@ -1,0 +1,44 @@
+ 
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #1e222d;
+    color: #fff;
+  }
+  
+  .main-content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .left-panel {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .action-buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #00c087;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00a06d;
+  }
