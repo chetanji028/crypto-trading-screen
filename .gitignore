@@ -1,0 +1,54 @@
+# Frontend dependencies
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/build/
+frontend/out/
+
+# Frontend environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+
+# Frontend logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+
+# Electron-specific files
+frontend/.electron-build/
+frontend/.electron-cache/
+
+# Backend Rust build artifacts
+backend/target/
+backend/.rustc_info.json
+
+# Backend environment files
+backend/.env
+
+# Backend logs
+backend/*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Dependency lock files (optional, uncomment if you don't want to track them)
+# frontend/package-lock.json
+# frontend/yarn.lock
+# backend/Cargo.lock
+config.bat
+node_modules

@@ -1,0 +1,36 @@
+{
+  "name": "crypto-trading-frontend",
+  "version": "1.0.0",
+  "main": "public/electron.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "electron": "electron .",
+    "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && npm run electron\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.12.7",
+    "electron": "^32.1.2",
+    "electron-is-dev": "^3.0.1"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1",
+    "concurrently": "^9.0.1",
+    "wait-on": "^8.0.0"
+  },
+  "homepage": "./",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
